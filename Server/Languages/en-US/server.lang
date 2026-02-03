@@ -1,0 +1,20 @@
+items.StevenPaw_Eventtech_Bench_Event.name=Eventtech Workbench
+items.StevenPaw_Eventtech_Bench_Event.description=A workbench for crafting event tech stuff
+BenchCategories.StevenPaw_Eventtech.Basics=Event Basics
+
+items.StevenPaw_Eventtech_GeneratorSpotlight.name=Generator Spotlight
+items.StevenPaw_Eventtech_PARLight.name=PAR Light
+items.StevenPaw_Eventtech_Truss.name=Truss (Horizontal)
+items.StevenPaw_Eventtech_Truss_Vertical.name=Truss (Vertical)
+items.StevenPaw_Eventtech_Truss_Edge.name=Truss (Edge)
+items.StevenPaw_Eventtech_Table_Short.name=Table (Short)
+items.StevenPaw_Eventtech_Table_Wide.name=Table (Wide)
+items.StevenPaw_Eventtech_Speaker_Monitor.name=Speaker (Monitor)
+items.StevenPaw_Eventtech_Speaker_LineArray.name=Speaker (Line Array)
+items.StevenPaw_Eventtech_Speaker_LineArrayEnd.name=Speaker (Line Array End)
+items.StevenPaw_Eventtech_Speaker_Subwoofer.name=Speaker (Subwoofer)
+items.StevenPaw_Eventtech_Stage.name=Stage
+items.StevenPaw_Eventtech_StageRiser.name=Stage Riser
+items.StevenPaw_Eventtech_StageStair.name=Stage Stair
+
+StevenPaw_Eventtech_ChangeDesign.description=Press [{key}] to change Design

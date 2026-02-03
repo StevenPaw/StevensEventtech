@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Eventtech_Truss_Edge.name",
+    "Description": ""
+  },
+  "BlockType": {
+    "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Truss_Edge.blockymodel",
+    "HitboxType": "StevenPaw_Eventtech_Truss_Edge",
+    "VariantRotation": "None",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "BlockSoundSetId": "Metal",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Truss.png"
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Truss_Edge.png",
+  "Parent": "StevenPaw_Eventtech_Truss",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "StevenPaw_Eventtech_Bench_Event",
+        "Categories": [
+          "Event_Basics"
+        ]
+      }
+    ],
+    "OutputQuantity": 4
+  }
+}
