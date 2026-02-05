@@ -11,17 +11,17 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Solid",
-    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Barrier.blockymodel",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Barrier_Beam.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Barrier.png"
       }
     ],
-    "HitboxType": "StevenPaw_Eventtech_Barrier",
+    "HitboxType": "StevenPaw_Eventtech_Barrier_Beam",
     "VariantRotation": "NESW",
     "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
+      "Breaking": {
+        "ItemId": "StevenPaw_Eventtech_Barrier"
       }
     },
     "BlockParticleSetId": "Metal",
@@ -40,6 +40,76 @@
       "West": [
         {}
       ]
+    },
+    "State": {
+      "Definitions": {
+        "Beam": {
+          "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Barrier_Beam.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Barrier.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_Beam",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier"
+            }
+          }
+        },
+        "Start": {
+          "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Barrier_Start.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Barrier.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_Start",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier"
+            }
+          }
+        },
+        "Straight": {
+          "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Barrier_Straight.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Barrier.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_Straight",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier"
+            }
+          }
+        },
+        "Corner": {
+          "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Barrier_Corner.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Barrier.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_Corner",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier"
+            }
+          }
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "ConnectedBlockTemplate_Barriers",
+      "TemplateShapeBlockPatterns": {
+        "Beam": "*StevenPaw_Eventtech_Barrier_State_Definitions_Beam",
+        "Start": "*StevenPaw_Eventtech_Barrier_State_Definitions_Start",
+        "Straight": "*StevenPaw_Eventtech_Barrier_State_Definitions_Straight",
+        "Corner": "*StevenPaw_Eventtech_Barrier_State_Definitions_Corner"
+      }
     }
   },
   "PlayerAnimationsId": "Block",
