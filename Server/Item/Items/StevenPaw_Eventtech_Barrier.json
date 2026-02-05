@@ -10,7 +10,7 @@
     "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
     "Material": "Solid",
     "DrawType": "Model",
-    "Opacity": "Solid",
+    "Opacity": "Transparent",
     "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Barrier_Beam.blockymodel",
     "CustomModelTexture": [
       {
@@ -112,6 +112,20 @@
               "ItemId": "StevenPaw_Eventtech_Barrier"
             }
           }
+        },
+        "Cross_Junction": {
+          "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Barrier_Cross.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Barrier.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_Cross_Junction",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier"
+            }
+          }
         }
       }
     },
@@ -123,7 +137,8 @@
         "Start": "*StevenPaw_Eventtech_Barrier_State_Definitions_Start",
         "Straight": "*StevenPaw_Eventtech_Barrier_State_Definitions_Straight",
         "Corner": "*StevenPaw_Eventtech_Barrier_State_Definitions_Corner",
-        "T_Junction": "*StevenPaw_Eventtech_Barrier_State_Definitions_T_Junction"
+        "T_Junction": "*StevenPaw_Eventtech_Barrier_State_Definitions_T_Junction",
+        "Cross_Junction": "*StevenPaw_Eventtech_Barrier_State_Definitions_Cross_Junction"
       }
     }
   },
