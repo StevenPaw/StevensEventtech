@@ -98,6 +98,20 @@
               "ItemId": "StevenPaw_Eventtech_Barrier"
             }
           }
+        },
+        "T_Junction": {
+          "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Barrier_T_Junction.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Barrier.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_T_Junction",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier"
+            }
+          }
         }
       }
     },
@@ -108,7 +122,8 @@
         "Beam": "*StevenPaw_Eventtech_Barrier_State_Definitions_Beam",
         "Start": "*StevenPaw_Eventtech_Barrier_State_Definitions_Start",
         "Straight": "*StevenPaw_Eventtech_Barrier_State_Definitions_Straight",
-        "Corner": "*StevenPaw_Eventtech_Barrier_State_Definitions_Corner"
+        "Corner": "*StevenPaw_Eventtech_Barrier_State_Definitions_Corner",
+        "T_Junction": "*StevenPaw_Eventtech_Barrier_State_Definitions_T_Junction"
       }
     }
   },
