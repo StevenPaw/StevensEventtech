@@ -1,6 +1,8 @@
 items.StevenPaw_Eventtech_Bench_Event.name=Eventtech Workbench
 items.StevenPaw_Eventtech_Bench_Event.description=A workbench for crafting event tech stuff
-BenchCategories.StevenPaw_Eventtech.Basics=Event Basics
+BenchCategories.StevenPaw_Eventtech.Basics=Basics
+BenchCategories.StevenPaw_Eventtech.Security=Security
+BenchCategories.StevenPaw_Eventtech.Stage=Stage / Rigging
 
 items.StevenPaw_Eventtech_GeneratorSpotlight.name=Generator Spotlight
 items.StevenPaw_Eventtech_PARLight.name=PAR Light

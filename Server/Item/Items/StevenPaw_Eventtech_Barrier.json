@@ -158,7 +158,7 @@
   "Recipe": {
     "Input": [
       {
-        "Quantity": 4,
+        "Quantity": 1,
         "ResourceTypeId": "Wood_Trunk"
       },
       {
@@ -171,11 +171,11 @@
         "Type": "Crafting",
         "Id": "StevenPaw_Eventtech_Bench_Event",
         "Categories": [
-          "Event_Basics"
+          "Event_Security"
         ]
       }
     ],
-    "OutputQuantity": 4
+    "OutputQuantity": 2
   },
   "Tags": {
     "Type": [

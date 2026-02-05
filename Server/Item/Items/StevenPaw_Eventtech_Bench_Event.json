@@ -52,6 +52,16 @@
           "Id": "Event_Basics",
           "Icon": "Icons/CraftingCategories/Event_Basics.png",
           "Name": "server.BenchCategories.StevenPaw_Eventtech.Basics"
+        },
+        {
+          "Id": "Event_Security",
+          "Icon": "Icons/CraftingCategories/Event_Security.png",
+          "Name": "server.BenchCategories.StevenPaw_Eventtech.Security"
+        },
+        {
+          "Id": "Event_Stage",
+          "Icon": "Icons/CraftingCategories/Event_Stage.png",
+          "Name": "server.BenchCategories.StevenPaw_Eventtech.Stage"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",
