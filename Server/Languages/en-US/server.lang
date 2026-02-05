@@ -4,8 +4,7 @@ BenchCategories.StevenPaw_Eventtech.Basics=Event Basics
 
 items.StevenPaw_Eventtech_GeneratorSpotlight.name=Generator Spotlight
 items.StevenPaw_Eventtech_PARLight.name=PAR Light
-items.StevenPaw_Eventtech_Truss.name=Truss (Horizontal)
-items.StevenPaw_Eventtech_Truss_Vertical.name=Truss (Vertical)
+items.StevenPaw_Eventtech_Truss.name=Truss
 items.StevenPaw_Eventtech_Truss_Edge.name=Truss (Edge)
 items.StevenPaw_Eventtech_Table_Short.name=Table (Short)
 items.StevenPaw_Eventtech_Table_Wide.name=Table (Wide)
@@ -16,5 +15,13 @@ items.StevenPaw_Eventtech_Speaker_Subwoofer.name=Speaker (Subwoofer)
 items.StevenPaw_Eventtech_Stage.name=Stage
 items.StevenPaw_Eventtech_StageRiser.name=Stage Riser
 items.StevenPaw_Eventtech_StageStair.name=Stage Stair
+items.StevenPaw_Eventtech_MoltonWall.name=Molton Wall
+items.StevenPaw_Eventtech_Microphone.name=Microphone
+items.StevenPaw_Eventtech_Barrier.name=Barrier
+
+
+items.StevenPaw_Eventtech_ConstructionFence3m.name=Construction Fence (3m)
+items.StevenPaw_Eventtech_ConstructionFence2m.name=Construction Fence (2m)
+items.StevenPaw_Eventtech_ConstructionFence1m.name=Construction Fence (1m)
 
 StevenPaw_Eventtech_ChangeDesign.description=Press [{key}] to change Design

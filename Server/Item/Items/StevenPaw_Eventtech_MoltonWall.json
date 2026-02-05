@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Eventtech_Truss.name",
+    "Name": "server.items.StevenPaw_Eventtech_MoltonWall.name",
     "Description": ""
   },
   "Categories": [
@@ -11,14 +11,14 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Solid",
-    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Truss.blockymodel",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_MoltonWall.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Truss.png"
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_MoltonWall.png"
       }
     ],
-    "HitboxType": "StevenPaw_Eventtech_Truss",
-    "VariantRotation": "Pipe",
+    "HitboxType": "StevenPaw_Eventtech_MoltonWall",
+    "VariantRotation": "NESW",
     "Gathering": {
       "Soft": {
         "IsWeaponBreakable": false
@@ -40,14 +40,11 @@
       "West": [
         {}
       ]
-    },
-    "MovementSettings": {
-      "IsClimbable": true
     }
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.7,
+    "Scale": 0.65,
     "Rotation": [
       22.5,
       45,
@@ -55,14 +52,15 @@
     ],
     "Translation": [
       0,
-      -13.5
+      -16
     ]
   },
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 1
+        "Quantity": 1,
+        "ResourceTypeId": "",
+        "ItemId": "Cloth_Block_Wool_Black"
       }
     ],
     "BenchRequirement": [
@@ -81,5 +79,5 @@
       "Furniture"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Truss.png"
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_MoltonWall.png"
 }

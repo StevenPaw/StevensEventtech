@@ -18,7 +18,10 @@
       {
         "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Truss.png"
       }
-    ]
+    ],
+    "MovementSettings": {
+      "IsClimbable": true
+    }
   },
   "IconProperties": {
     "Scale": 0.58823,
