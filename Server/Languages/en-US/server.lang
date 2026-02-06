@@ -21,6 +21,9 @@ items.StevenPaw_Eventtech_MoltonWall.name=Molton Wall
 items.StevenPaw_Eventtech_Microphone.name=Microphone
 items.StevenPaw_Eventtech_Barrier_Red.name=Barrier (Red)
 items.StevenPaw_Eventtech_Barrier_Yellow.name=Barrier (Yellow)
+items.StevenPaw_Eventtech_Barrier_Green.name=Barrier (Green)
+items.StevenPaw_Eventtech_Barrier_Blue.name=Barrier (Blue)
+items.StevenPaw_Eventtech_Barrier_Warning.name=Barrier (Warning)
 
 
 items.StevenPaw_Eventtech_ConstructionFence3m.name=Construction Fence (3m)

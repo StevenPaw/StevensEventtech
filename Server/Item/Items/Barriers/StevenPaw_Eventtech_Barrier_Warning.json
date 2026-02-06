@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Eventtech_Barrier_Red.name",
+    "Name": "server.items.StevenPaw_Eventtech_Barrier_Warning.name",
     "Description": ""
   },
   "Categories": [
@@ -13,14 +13,14 @@
     "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Red.png"
+        "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Warning.png"
       }
     ],
     "HitboxType": "StevenPaw_Eventtech_Barrier_Beam",
     "VariantRotation": "NESW",
     "Gathering": {
       "Breaking": {
-        "ItemId": "StevenPaw_Eventtech_Barrier_Red"
+        "ItemId": "StevenPaw_Eventtech_Barrier_Warning"
       }
     },
     "BlockParticleSetId": "Metal",
@@ -30,28 +30,28 @@
       "Up": [
         {
           "Blocks": [
-            "StevenPaw_Eventtech_Barrier_Red"
+            "StevenPaw_Eventtech_Barrier_Warning"
           ]
         }
       ],
       "Down": [
         {
           "Blocks": [
-            "StevenPaw_Eventtech_Barrier_Red"
+            "StevenPaw_Eventtech_Barrier_Warning"
           ]
         }
       ],
       "East": [
         {
           "Blocks": [
-            "StevenPaw_Eventtech_Barrier_Red"
+            "StevenPaw_Eventtech_Barrier_Warning"
           ]
         }
       ],
       "West": [
         {
           "Blocks": [
-            "StevenPaw_Eventtech_Barrier_Red"
+            "StevenPaw_Eventtech_Barrier_Warning"
           ]
         }
       ]
@@ -62,13 +62,13 @@
           "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Beam.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Red.png"
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Warning.png"
             }
           ],
           "HitboxType": "StevenPaw_Eventtech_Barrier_Beam",
           "Gathering": {
             "Breaking": {
-              "ItemId": "StevenPaw_Eventtech_Barrier_Red"
+              "ItemId": "StevenPaw_Eventtech_Barrier_Warning"
             }
           }
         },
@@ -76,13 +76,13 @@
           "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Start.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Red.png"
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Warning.png"
             }
           ],
           "HitboxType": "StevenPaw_Eventtech_Barrier_Start",
           "Gathering": {
             "Breaking": {
-              "ItemId": "StevenPaw_Eventtech_Barrier_Red"
+              "ItemId": "StevenPaw_Eventtech_Barrier_Warning"
             }
           }
         },
@@ -90,13 +90,13 @@
           "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Straight.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Red.png"
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Warning.png"
             }
           ],
           "HitboxType": "StevenPaw_Eventtech_Barrier_Straight",
           "Gathering": {
             "Breaking": {
-              "ItemId": "StevenPaw_Eventtech_Barrier_Red"
+              "ItemId": "StevenPaw_Eventtech_Barrier_Warning"
             }
           }
         },
@@ -104,13 +104,13 @@
           "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Corner.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Red.png"
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Warning.png"
             }
           ],
           "HitboxType": "StevenPaw_Eventtech_Barrier_Corner",
           "Gathering": {
             "Breaking": {
-              "ItemId": "StevenPaw_Eventtech_Barrier_Red"
+              "ItemId": "StevenPaw_Eventtech_Barrier_Warning"
             }
           }
         },
@@ -118,13 +118,13 @@
           "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_T_Junction.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Red.png"
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Warning.png"
             }
           ],
           "HitboxType": "StevenPaw_Eventtech_Barrier_T_Junction",
           "Gathering": {
             "Breaking": {
-              "ItemId": "StevenPaw_Eventtech_Barrier_Red"
+              "ItemId": "StevenPaw_Eventtech_Barrier_Warning"
             }
           }
         },
@@ -132,13 +132,13 @@
           "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Cross.blockymodel",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Red.png"
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Warning.png"
             }
           ],
           "HitboxType": "StevenPaw_Eventtech_Barrier_Cross_Junction",
           "Gathering": {
             "Breaking": {
-              "ItemId": "StevenPaw_Eventtech_Barrier_Red"
+              "ItemId": "StevenPaw_Eventtech_Barrier_Warning"
             }
           }
         }
@@ -146,14 +146,14 @@
     },
     "ConnectedBlockRuleSet": {
       "Type": "CustomTemplate",
-      "TemplateShapeAssetId": "ConnectedBlockTemplate_Barriers_Red",
+      "TemplateShapeAssetId": "ConnectedBlockTemplate_Barriers_Warning",
       "TemplateShapeBlockPatterns": {
-        "Beam": "*StevenPaw_Eventtech_Barrier_Red_State_Definitions_Beam",
-        "Start": "*StevenPaw_Eventtech_Barrier_Red_State_Definitions_Start",
-        "Straight": "*StevenPaw_Eventtech_Barrier_Red_State_Definitions_Straight",
-        "Corner": "*StevenPaw_Eventtech_Barrier_Red_State_Definitions_Corner",
-        "T_Junction": "*StevenPaw_Eventtech_Barrier_Red_State_Definitions_T_Junction",
-        "Cross_Junction": "*StevenPaw_Eventtech_Barrier_Red_State_Definitions_Cross_Junction"
+        "Beam": "*StevenPaw_Eventtech_Barrier_Warning_State_Definitions_Beam",
+        "Start": "*StevenPaw_Eventtech_Barrier_Warning_State_Definitions_Start",
+        "Straight": "*StevenPaw_Eventtech_Barrier_Warning_State_Definitions_Straight",
+        "Corner": "*StevenPaw_Eventtech_Barrier_Warning_State_Definitions_Corner",
+        "T_Junction": "*StevenPaw_Eventtech_Barrier_Warning_State_Definitions_T_Junction",
+        "Cross_Junction": "*StevenPaw_Eventtech_Barrier_Warning_State_Definitions_Cross_Junction"
       }
     }
   },
@@ -197,5 +197,5 @@
       "Furniture"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Barrier_Red.png"
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Barrier_Warning.png"
 }
