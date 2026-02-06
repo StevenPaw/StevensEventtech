@@ -1,23 +1,22 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Eventtech_Microphone.name",
+    "Name": "server.items.StevenPaw_Eventtech_SecurityCameraStatic.name",
     "Description": ""
   },
   "Categories": [
     "Blocks.Deco"
   ],
   "BlockType": {
-    "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
     "Material": "Solid",
     "DrawType": "Model",
-    "Opacity": "Solid",
-    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Microphone.blockymodel",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_SecurityCamera.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Microphone.png"
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_SecurityCamera.png"
       }
     ],
-    "HitboxType": "StevenPaw_Eventtech_Microphone",
+    "HitboxType": "StevenPaw_Eventtech_SecurityCamera",
     "VariantRotation": "NESW",
     "Gathering": {
       "Soft": {
@@ -40,27 +39,30 @@
       "West": [
         {}
       ]
+    },
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
     }
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.6,
+    "Scale": 1.3,
     "Rotation": [
-      22.5,
-      45,
-      22.5
+      0,
+      38,
+      0
     ],
     "Translation": [
-      -6,
-      -18
+      5,
+      -21
     ]
   },
   "Recipe": {
     "Input": [
-      {
-        "Quantity": 4,
-        "ResourceTypeId": "Wood_Trunk"
-      },
       {
         "ItemId": "Ingredient_Bar_Iron",
         "Quantity": 1
@@ -71,7 +73,7 @@
         "Type": "Crafting",
         "Id": "StevenPaw_Eventtech_Bench_Event",
         "Categories": [
-          "Event_Basics"
+          "Event_Security"
         ]
       }
     ],
@@ -82,5 +84,5 @@
       "Furniture"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Microphone.png"
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_SecurityCamera_Static.png"
 }

@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Eventtech_Microphone.name",
+    "Name": "server.items.StevenPaw_Eventtech_CardReader.name",
     "Description": ""
   },
   "Categories": [
@@ -11,13 +11,13 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Solid",
-    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Microphone.blockymodel",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_CardReader.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Microphone.png"
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_CardReader.png"
       }
     ],
-    "HitboxType": "StevenPaw_Eventtech_Microphone",
+    "HitboxType": "StevenPaw_Eventtech_CardReader",
     "VariantRotation": "NESW",
     "Gathering": {
       "Soft": {
@@ -44,23 +44,19 @@
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.6,
+    "Scale": 1.4,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      -6,
-      -18
+      -4,
+      -1
     ]
   },
   "Recipe": {
     "Input": [
-      {
-        "Quantity": 4,
-        "ResourceTypeId": "Wood_Trunk"
-      },
       {
         "ItemId": "Ingredient_Bar_Iron",
         "Quantity": 1
@@ -82,5 +78,5 @@
       "Furniture"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Microphone.png"
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Cardreader.png"
 }

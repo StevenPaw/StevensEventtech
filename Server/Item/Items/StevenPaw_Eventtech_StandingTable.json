@@ -1,24 +1,23 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Eventtech_Microphone.name",
+    "Name": "server.items.StevenPaw_Eventtech_StandingTable.name",
     "Description": ""
   },
   "Categories": [
     "Blocks.Deco"
   ],
   "BlockType": {
-    "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Solid",
-    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Microphone.blockymodel",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_StandingTable.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Microphone.png"
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StandingTable.png"
       }
     ],
-    "HitboxType": "StevenPaw_Eventtech_Microphone",
-    "VariantRotation": "NESW",
+    "HitboxType": "StevenPaw_Eventtech_StandingTable",
+    "VariantRotation": "None",
     "Gathering": {
       "Soft": {
         "IsWeaponBreakable": false
@@ -44,15 +43,15 @@
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.6,
+    "Scale": 0.75,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      -6,
-      -18
+      0,
+      -16
     ]
   },
   "Recipe": {
@@ -60,10 +59,6 @@
       {
         "Quantity": 4,
         "ResourceTypeId": "Wood_Trunk"
-      },
-      {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 1
       }
     ],
     "BenchRequirement": [
@@ -82,5 +77,5 @@
       "Furniture"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Microphone.png"
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_StandingTable.png"
 }
