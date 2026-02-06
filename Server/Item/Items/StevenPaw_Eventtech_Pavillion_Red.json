@@ -1,0 +1,57 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Eventtech_PavillionRed.name",
+    "Description": ""
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PavillionRed.png"
+      }
+    ],
+    "ParticleColor": "#c44343",
+    "Material": "Solid",
+    "Opacity": "Semitransparent"
+  },
+  "IconProperties": {
+    "Scale": 0.2,
+    "Rotation": [
+      18,
+      51,
+      21
+    ],
+    "Translation": [
+      0,
+      -37
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Red",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "StevenPaw_Eventtech_Bench_Event",
+        "Categories": [
+          "Event_Basics"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Pavillion_Red.png",
+  "Parent": "StevenPaw_Eventtech_Pavillion"
+}

@@ -7,7 +7,6 @@
     "Blocks.Deco"
   ],
   "BlockType": {
-    "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Solid",
