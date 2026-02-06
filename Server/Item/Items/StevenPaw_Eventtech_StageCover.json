@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Eventtech_Waterblock.name",
+    "Name": "server.items.StevenPaw_Eventtech_StageCover.name",
     "Description": ""
   },
   "Categories": [
@@ -10,55 +10,42 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Solid",
-    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Waterblock.blockymodel",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_StageCover.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Waterblock.png"
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageCover.png"
       }
     ],
-    "HitboxType": "StevenPaw_Eventtech_Waterblock",
+    "HitboxType": "StevenPaw_Eventtech_StageCover",
     "VariantRotation": "NESW",
     "Gathering": {
       "Soft": {
         "IsWeaponBreakable": false
       }
     },
-    "BlockParticleSetId": "Metal",
-    "BlockSoundSetId": "Metal",
-    "ParticleColor": "#303030",
-    "Supporting": {
-      "Up": [
-        {}
-      ],
-      "Down": [
-        {}
-      ],
-      "East": [
-        {}
-      ],
-      "West": [
-        {}
-      ]
-    }
+    "BlockParticleSetId": "Flower",
+    "BlockSoundSetId": "Cloth",
+    "ParticleColor": "#000000"
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.4,
+    "Scale": 0.7,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      0,
+      10,
       -21
     ]
   },
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 1
+        "Quantity": 1,
+        "ResourceTypeId": "",
+        "ItemId": "Cloth_Block_Wool_Black"
       }
     ],
     "BenchRequirement": [
@@ -66,7 +53,7 @@
         "Type": "Crafting",
         "Id": "StevenPaw_Eventtech_Bench_Event",
         "Categories": [
-          "Event_Basics"
+          "Event_Stage"
         ]
       }
     ],
@@ -77,5 +64,5 @@
       "Furniture"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Waterblock.png"
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_StageCover.png"
 }

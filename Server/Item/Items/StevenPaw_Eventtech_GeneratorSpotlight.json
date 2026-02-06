@@ -69,7 +69,7 @@
             }
           ],
           "Light": {
-            "Radius": 50,
+            "Radius": 13,
             "Color": "#fd7"
           }
         }

@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Eventtech_Waterblock.name",
+    "Name": "server.items.StevenPaw_Eventtech_RollerConveyer.name",
     "Description": ""
   },
   "Categories": [
@@ -9,41 +9,27 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "Opacity": "Solid",
-    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Waterblock.blockymodel",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_XrayScanner.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_Waterblock.png"
+        "Texture": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_XrayScanner.png"
       }
     ],
-    "HitboxType": "StevenPaw_Eventtech_Waterblock",
-    "VariantRotation": "NESW",
+    "HitboxType": "StevenPaw_Eventtech_XrayScanner",
+    "VariantRotation": "None",
     "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
+      "Breaking": {
+        "ItemId": "StevenPaw_Eventtech_RollerConveyer_Blue"
       }
     },
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
-    "ParticleColor": "#303030",
-    "Supporting": {
-      "Up": [
-        {}
-      ],
-      "Down": [
-        {}
-      ],
-      "East": [
-        {}
-      ],
-      "West": [
-        {}
-      ]
-    }
+    "ParticleColor": "#303030"
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.4,
+    "Scale": 0.45,
     "Rotation": [
       22.5,
       45,
@@ -51,11 +37,15 @@
     ],
     "Translation": [
       0,
-      -21
+      -23
     ]
   },
   "Recipe": {
     "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Wood_Trunk"
+      },
       {
         "ItemId": "Ingredient_Bar_Iron",
         "Quantity": 1
@@ -66,16 +56,16 @@
         "Type": "Crafting",
         "Id": "StevenPaw_Eventtech_Bench_Event",
         "Categories": [
-          "Event_Basics"
+          "Event_Security"
         ]
       }
     ],
-    "OutputQuantity": 4
+    "OutputQuantity": 2
   },
   "Tags": {
     "Type": [
       "Furniture"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Waterblock.png"
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_XrayScanner.png"
 }

@@ -1,0 +1,171 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Eventtech_RollerConveyer.name",
+    "Description": ""
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RollerConveyer_Beam.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RolleryConveyer_Beam.png"
+      }
+    ],
+    "HitboxType": "StevenPaw_Eventtech_RollerConveyer_Beam",
+    "VariantRotation": "None",
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "StevenPaw_Eventtech_RollerConveyer_Blue"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#303030",
+    "State": {
+      "Definitions": {
+        "Beam": {
+          "CustomModel": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RollerConveyer_Beam.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RolleryConveyer_Beam.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_RollerConveyer_Beam",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_RollerConveyer"
+            }
+          }
+        },
+        "Start": {
+          "CustomModel": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RollerConveyer_Start.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RolleryConveyer_Start.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_RollerConveyer_Start",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_RollerConveyer"
+            }
+          }
+        },
+        "Straight": {
+          "CustomModel": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RollerConveyer_Straight.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RolleryConveyer_Straight.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_RollerConveyer_Straight",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_RollerConveyer"
+            }
+          }
+        },
+        "Corner": {
+          "CustomModel": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RollerConveyer_Corner.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RolleryConveyer_Corner.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_RollerConveyer_Corner",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_RollerConveyer"
+            }
+          }
+        },
+        "T_Junction": {
+          "CustomModel": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RollerConveyer_T_Junction.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RolleryConveyer_T_Junction.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_RollerConveyer_T_Junction",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_RollerConveyer"
+            }
+          }
+        },
+        "Cross_Junction": {
+          "CustomModel": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RollerConveyer_Junction.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_RolleryConveyer_Junction.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_RollerConveyer_Junction",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_RollerConveyer"
+            }
+          }
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "ConnectedBlockTemplate_RollerConveyer",
+      "TemplateShapeBlockPatterns": {
+        "Beam": "*StevenPaw_Eventtech_RollerConveyer_State_Definitions_Beam",
+        "Start": "*StevenPaw_Eventtech_RollerConveyer_State_Definitions_Start",
+        "Straight": "*StevenPaw_Eventtech_RollerConveyer_State_Definitions_Straight",
+        "Corner": "*StevenPaw_Eventtech_RollerConveyer_State_Definitions_Corner",
+        "T_Junction": "*StevenPaw_Eventtech_RollerConveyer_State_Definitions_T_Junction",
+        "Cross_Junction": "*StevenPaw_Eventtech_RollerConveyer_State_Definitions_Cross_Junction"
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.65,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "StevenPaw_Eventtech_Bench_Event",
+        "Categories": [
+          "Event_Security"
+        ]
+      }
+    ],
+    "OutputQuantity": 2
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_RollerConveyer.png"
+}

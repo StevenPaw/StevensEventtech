@@ -1,27 +1,23 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Eventtech_PARLight.name",
+    "Name": "server.items.StevenPaw_Eventtech_StageFlooder.name",
     "Description": ""
   },
   "Categories": [
     "Blocks.Deco"
   ],
   "BlockType": {
-    "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
     "Material": "Solid",
     "DrawType": "Model",
-    "Opacity": "Transparent",
-    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_PARLight.blockymodel",
-    "Flags": {
-      "IsUsable": true
-    },
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Off.png"
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Off.png"
       }
     ],
-    "HitboxType": "StevenPaw_Eventtech_PARLight",
-    "VariantRotation": "UpDownNESW",
+    "HitboxType": "StevenPaw_Eventtech_StageFlooder",
+    "VariantRotation": "None",
     "Gathering": {
       "Soft": {
         "IsWeaponBreakable": false
@@ -29,14 +25,127 @@
     },
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
-    "Support": {
-      "North": [
-        {
-          "FaceType": "Full"
+    "ParticleColor": "#303030",
+    "State": {
+      "Definitions": {
+        "OFF": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Off.png"
+            }
+          ]
+        },
+        "RED": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Red.png"
+            }
+          ],
+          "Light": {
+            "Radius": 10,
+            "Color": "#f00"
+          }
+        },
+        "AMBER": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Amber.png"
+            }
+          ],
+          "Light": {
+            "Radius": 10,
+            "Color": "#fb4"
+          }
+        },
+        "BLUE": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Blue.png"
+            }
+          ],
+          "Light": {
+            "Radius": 10,
+            "Color": "#00f"
+          }
+        },
+        "CYAN": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Cyan.png"
+            }
+          ],
+          "Light": {
+            "Radius": 10,
+            "Color": "#0cf"
+          }
+        },
+        "GREEN": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Green.png"
+            }
+          ],
+          "Light": {
+            "Radius": 10,
+            "Color": "#0f0"
+          }
+        },
+        "UV": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_UV.png"
+            }
+          ],
+          "Light": {
+            "Radius": 5,
+            "Color": "#306"
+          }
+        },
+        "VIOLET": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Violet.png"
+            }
+          ],
+          "Light": {
+            "Radius": 10,
+            "Color": "#a0f"
+          }
+        },
+        "WHITE": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_White.png"
+            }
+          ],
+          "Light": {
+            "Radius": 10,
+            "Color": "#fff"
+          }
+        },
+        "YELLOW": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Yellow.png"
+            }
+          ],
+          "Light": {
+            "Radius": 10,
+            "Color": "#fe9"
+          }
         }
-      ]
+      }
     },
-    "ParticleColor": "#7b0000",
     "Interactions": {
       "Use": {
         "Interactions": [
@@ -58,147 +167,26 @@
           }
         ]
       }
-    },
-    "State": {
-      "Definitions": {
-        "OFF": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Off.png"
-            }
-          ]
-        },
-        "RED": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Red.png"
-            }
-          ],
-          "Light": {
-            "Radius": 10,
-            "Color": "#f00"
-          }
-        },
-        "AMBER": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Amber.png"
-            }
-          ],
-          "Light": {
-            "Radius": 10,
-            "Color": "#fb4"
-          }
-        },
-        "BLUE": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Blue.png"
-            }
-          ],
-          "Light": {
-            "Radius": 10,
-            "Color": "#00f"
-          }
-        },
-        "CYAN": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Cyan.png"
-            }
-          ],
-          "Light": {
-            "Radius": 10,
-            "Color": "#0cf"
-          }
-        },
-        "GREEN": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Green.png"
-            }
-          ],
-          "Light": {
-            "Radius": 10,
-            "Color": "#0f0"
-          }
-        },
-        "UV": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_UV.png"
-            }
-          ],
-          "Light": {
-            "Radius": 5,
-            "Color": "#306"
-          }
-        },
-        "VIOLET": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Violet.png"
-            }
-          ],
-          "Light": {
-            "Radius": 10,
-            "Color": "#a0f"
-          }
-        },
-        "WHITE": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_White.png"
-            }
-          ],
-          "Light": {
-            "Radius": 10,
-            "Color": "#fff"
-          }
-        },
-        "YELLOW": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
-          "CustomModelTexture": [
-            {
-              "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Yellow.png"
-            }
-          ],
-          "Light": {
-            "Radius": 10,
-            "Color": "#fe9"
-          }
-        }
-      }
-    },
-    "RequiresAlphaBlending": false
+    }
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
-    "Scale": 0.9,
+    "Scale": 1.45,
     "Rotation": [
-      0,
-      27,
-      10
+      22.5,
+      45,
+      22.5
     ],
     "Translation": [
-      3,
-      -3
+      7,
+      -7
     ]
   },
   "Recipe": {
     "Input": [
       {
         "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 2
+        "Quantity": 1
       },
       {
         "ItemId": "Deco_Lantern",
@@ -213,12 +201,13 @@
           "Event_Basics"
         ]
       }
-    ]
+    ],
+    "OutputQuantity": 1
   },
   "Tags": {
     "Type": [
       "Furniture"
     ]
   },
-  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_ParLight.png"
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_StageFlooder.png"
 }

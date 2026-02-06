@@ -24,6 +24,7 @@ items.StevenPaw_Eventtech_CardReader.name=Card Reader
 items.StevenPaw_Eventtech_CashRegister.name=Cash Register
 items.StevenPaw_Eventtech_StandingTable.name=Standing Table
 items.StevenPaw_Eventtech_Keypad.name=Keypad
+items.StevenPaw_Eventtech_StageCover.name=Stage Cover
 items.StevenPaw_Eventtech_Cablebridge.name=Cable Bridge
 items.StevenPaw_Eventtech_PortalTurnstile.name=Portal Turnstile
 items.StevenPaw_Eventtech_Pavillion.name=Pavillion (White)
@@ -37,6 +38,9 @@ items.StevenPaw_Eventtech_Barrier_Yellow.name=Barrier (Yellow)
 items.StevenPaw_Eventtech_Barrier_Green.name=Barrier (Green)
 items.StevenPaw_Eventtech_Barrier_Blue.name=Barrier (Blue)
 items.StevenPaw_Eventtech_Barrier_Warning.name=Barrier (Warning)
+items.StevenPaw_Eventtech_StageFlooder.name=Stage Flooder Light
+items.StevenPaw_Eventtech_RollerConveyer.name=Roller Conveyer
+items.StevenPaw_Eventtech_XrayScanner.name=Xray Scanner
 
 
 items.StevenPaw_Eventtech_ConstructionFence3m.name=Construction Fence (3m)
