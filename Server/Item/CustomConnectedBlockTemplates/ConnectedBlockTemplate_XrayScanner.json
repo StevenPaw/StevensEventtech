@@ -1,0 +1,16 @@
+{
+  "DefaultShape": "Scanner",
+  "Shapes": {
+    "Scanner": {
+      "FaceTags": {
+        "East": [
+          "RollerConveyerConnection"
+        ],
+        "West": [
+          "RollerConveyerConnection"
+        ]
+      }
+    }
+  },
+  "ConnectsToOtherMaterials": true
+}

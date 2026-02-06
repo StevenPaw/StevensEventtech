@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.StevenPaw_Eventtech_RollerConveyer.name",
+    "Name": "server.items.StevenPaw_Eventtech_XrayScanner.name",
     "Description": ""
   },
   "Categories": [
@@ -17,7 +17,7 @@
       }
     ],
     "HitboxType": "StevenPaw_Eventtech_XrayScanner",
-    "VariantRotation": "None",
+    "VariantRotation": "NESW",
     "Gathering": {
       "Breaking": {
         "ItemId": "StevenPaw_Eventtech_RollerConveyer_Blue"
@@ -25,7 +25,33 @@
     },
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
-    "ParticleColor": "#303030"
+    "ParticleColor": "#303030",
+    "State": {
+      "Definitions": {
+        "Scanner": {
+          "CustomModel": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_XrayScanner.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/RollerConveyer/StevenPaw_Eventtech_XrayScanner.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_XrayScanner",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_XrayScanner"
+            }
+          },
+          "DrawType": "Model"
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "ConnectedBlockTemplate_XrayScanner",
+      "TemplateShapeBlockPatterns": {
+        "Scanner": "*StevenPaw_Eventtech_XrayScanner_State_Definitions_Scanner"
+      }
+    }
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {
