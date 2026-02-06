@@ -1,0 +1,84 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Eventtech_PortalTurnstile.name",
+    "Description": ""
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_PortalTurnstile.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PortalTurnstile.png"
+      }
+    ],
+    "HitboxType": "StevenPaw_Eventtech_PortalTurnstile",
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#303030",
+    "Supporting": {
+      "Up": [
+        {}
+      ],
+      "Down": [
+        {}
+      ],
+      "East": [
+        {}
+      ],
+      "West": [
+        {}
+      ]
+    },
+    "CustomModelAnimation": "Blocks/Furniture/StevenPaw_Eventtech_PortalTurnstile_Idle.blockyanim",
+    "Looping": true
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      5,
+      -26
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "StevenPaw_Eventtech_Bench_Event",
+        "Categories": [
+          "Event_Security"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_PortalTurnstile.png",
+  "Scale": 0.6
+}
