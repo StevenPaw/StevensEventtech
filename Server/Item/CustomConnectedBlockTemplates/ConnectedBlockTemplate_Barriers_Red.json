@@ -1,0 +1,271 @@
+{
+  "ConnectsToOtherMaterials": true,
+  "DefaultShape": "Beam",
+  "Shapes": {
+    "Beam": {
+      "FaceTags": {
+        "East": ["BarrierConnection_Red"],
+        "West": ["BarrierConnection_Red"],
+        "North": ["BarrierConnection_Red"],
+        "South": ["BarrierConnection_Red"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": false,
+          "RulesToMatch": [
+            {
+              "Position": { "X": -1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": -1 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": 1 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": ["BarrierConnection_Red"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Start": {
+      "FaceTags": {
+        "West": ["BarrierConnection_Red"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "AllowedPatternTransformations": {
+            "IsCardinallyRotatable": true
+          },
+          "RulesToMatch": [
+            {
+              "Position": { "X": -1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": -1 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": 1 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": ["BarrierConnection_Red"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Straight": {
+      "FaceTags": {
+        "East": ["BarrierConnection_Red"],
+        "West": ["BarrierConnection_Red"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "AllowedPatternTransformations": {
+            "IsCardinallyRotatable": true
+          },
+          "RulesToMatch": [
+            {
+              "Position": { "X": -1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": 1 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": -1 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": ["BarrierConnection_Red"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Corner": {
+      "FaceTags": {
+        "West": ["BarrierConnection_Red"],
+        "South": ["BarrierConnection_Red"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "AllowedPatternTransformations": {
+            "IsCardinallyRotatable": true
+          },
+          "RulesToMatch": [
+            {
+              "Position": { "X": -1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": 1 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": -1 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": ["BarrierConnection_Red"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "T_Junction": {
+      "FaceTags": {
+        "East": ["BarrierConnection_Red"],
+        "West": ["BarrierConnection_Red"],
+        "South": ["BarrierConnection_Red"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "AllowedPatternTransformations": {
+            "IsCardinallyRotatable": true
+          },
+          "RulesToMatch": [
+            {
+              "Position": { "X": 1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": -1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": 1 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": -1 },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": ["BarrierConnection_Red"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Cross_Junction": {
+      "FaceTags": {
+        "East": ["BarrierConnection_Red"],
+        "West": ["BarrierConnection_Red"],
+        "South": ["BarrierConnection_Red"],
+        "North": ["BarrierConnection_Red"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": false,
+          "RulesToMatch": [
+            {
+              "Position": { "X": 1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": -1, "Y": 0, "Z": 0 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": 1 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": ["BarrierConnection_Red"]
+              }
+            },
+            {
+              "Position": { "X": 0, "Y": 0, "Z": -1 },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": ["BarrierConnection_Red"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+

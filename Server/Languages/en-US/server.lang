@@ -19,11 +19,14 @@ items.StevenPaw_Eventtech_StageRiser.name=Stage Riser
 items.StevenPaw_Eventtech_StageStair.name=Stage Stair
 items.StevenPaw_Eventtech_MoltonWall.name=Molton Wall
 items.StevenPaw_Eventtech_Microphone.name=Microphone
-items.StevenPaw_Eventtech_Barrier.name=Barrier
+items.StevenPaw_Eventtech_Barrier_Red.name=Barrier (Red)
+items.StevenPaw_Eventtech_Barrier_Yellow.name=Barrier (Yellow)
 
 
 items.StevenPaw_Eventtech_ConstructionFence3m.name=Construction Fence (3m)
+items.StevenPaw_Eventtech_ConstructionFence3m_Door.name=Construction Fence Door (3m)
 items.StevenPaw_Eventtech_ConstructionFence2m.name=Construction Fence (2m)
+items.StevenPaw_Eventtech_ConstructionFence2m_Door.name=Construction Fence Door (2m)
 items.StevenPaw_Eventtech_ConstructionFence1m.name=Construction Fence (1m)
 
 StevenPaw_Eventtech_ChangeDesign.description=Press [{key}] to change Design

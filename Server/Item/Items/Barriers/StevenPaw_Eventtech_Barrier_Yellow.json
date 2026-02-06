@@ -1,0 +1,201 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Eventtech_Barrier_Yellow.name",
+    "Description": ""
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Yellow.png"
+      }
+    ],
+    "HitboxType": "StevenPaw_Eventtech_Barrier_Beam",
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "StevenPaw_Eventtech_Barrier_Yellow"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#303030",
+    "Supporting": {
+      "Up": [
+        {
+          "Blocks": [
+            "StevenPaw_Eventtech_Barrier_Yellow"
+          ]
+        }
+      ],
+      "Down": [
+        {
+          "Blocks": [
+            "StevenPaw_Eventtech_Barrier_Yellow"
+          ]
+        }
+      ],
+      "East": [
+        {
+          "Blocks": [
+            "StevenPaw_Eventtech_Barrier_Yellow"
+          ]
+        }
+      ],
+      "West": [
+        {
+          "Blocks": [
+            "StevenPaw_Eventtech_Barrier_Yellow"
+          ]
+        }
+      ]
+    },
+    "State": {
+      "Definitions": {
+        "Beam": {
+          "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Beam.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Yellow.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_Beam",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier_Yellow"
+            }
+          }
+        },
+        "Start": {
+          "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Start.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Yellow.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_Start",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier_Yellow"
+            }
+          }
+        },
+        "Straight": {
+          "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Straight.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Yellow.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_Straight",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier_Yellow"
+            }
+          }
+        },
+        "Corner": {
+          "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Corner.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Yellow.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_Corner",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier_Yellow"
+            }
+          }
+        },
+        "T_Junction": {
+          "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_T_Junction.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Yellow.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_T_Junction",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier_Yellow"
+            }
+          }
+        },
+        "Cross_Junction": {
+          "CustomModel": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Cross.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Furniture/Barriers/StevenPaw_Eventtech_Barrier_Yellow.png"
+            }
+          ],
+          "HitboxType": "StevenPaw_Eventtech_Barrier_Cross_Junction",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "StevenPaw_Eventtech_Barrier_Yellow"
+            }
+          }
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "ConnectedBlockTemplate_Barriers_Yellow",
+      "TemplateShapeBlockPatterns": {
+        "Beam": "*StevenPaw_Eventtech_Barrier_Yellow_State_Definitions_Beam",
+        "Start": "*StevenPaw_Eventtech_Barrier_Yellow_State_Definitions_Start",
+        "Straight": "*StevenPaw_Eventtech_Barrier_Yellow_State_Definitions_Straight",
+        "Corner": "*StevenPaw_Eventtech_Barrier_Yellow_State_Definitions_Corner",
+        "T_Junction": "*StevenPaw_Eventtech_Barrier_Yellow_State_Definitions_T_Junction",
+        "Cross_Junction": "*StevenPaw_Eventtech_Barrier_Yellow_State_Definitions_Cross_Junction"
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "StevenPaw_Eventtech_Bench_Event",
+        "Categories": [
+          "Event_Security"
+        ]
+      }
+    ],
+    "OutputQuantity": 2
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_Barrier_Yellow.png"
+}

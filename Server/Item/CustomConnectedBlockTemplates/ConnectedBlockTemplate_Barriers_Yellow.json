@@ -4,10 +4,10 @@
   "Shapes": {
     "Beam": {
       "FaceTags": {
-        "East": ["BarrierConnection"],
-        "West": ["BarrierConnection"],
-        "North": ["BarrierConnection"],
-        "South": ["BarrierConnection"]
+        "East": ["BarrierConnection_Yellow"],
+        "West": ["BarrierConnection_Yellow"],
+        "North": ["BarrierConnection_Yellow"],
+        "South": ["BarrierConnection_Yellow"]
       },
       "PatternsToMatchAnyOf": [
         {
@@ -18,28 +18,28 @@
               "Position": { "X": -1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "East": ["BarrierConnection"]
+                "East": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "West": ["BarrierConnection"]
+                "West": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": -1 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "South": ["BarrierConnection"]
+                "South": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": 1 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "North": ["BarrierConnection"]
+                "North": ["BarrierConnection_Yellow"]
               }
             }
           ]
@@ -48,7 +48,7 @@
     },
     "Start": {
       "FaceTags": {
-        "West": ["BarrierConnection"]
+        "West": ["BarrierConnection_Yellow"]
       },
       "PatternsToMatchAnyOf": [
         {
@@ -61,28 +61,28 @@
               "Position": { "X": -1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "East": ["BarrierConnection"]
+                "East": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "West": ["BarrierConnection"]
+                "West": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": -1 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "South": ["BarrierConnection"]
+                "South": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": 1 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "North": ["BarrierConnection"]
+                "North": ["BarrierConnection_Yellow"]
               }
             }
           ]
@@ -91,8 +91,8 @@
     },
     "Straight": {
       "FaceTags": {
-        "East": ["BarrierConnection"],
-        "West": ["BarrierConnection"]
+        "East": ["BarrierConnection_Yellow"],
+        "West": ["BarrierConnection_Yellow"]
       },
       "PatternsToMatchAnyOf": [
         {
@@ -105,28 +105,28 @@
               "Position": { "X": -1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "East": ["BarrierConnection"]
+                "East": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "West": ["BarrierConnection"]
+                "West": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": 1 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "North": ["BarrierConnection"]
+                "North": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": -1 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "South": ["BarrierConnection"]
+                "South": ["BarrierConnection_Yellow"]
               }
             }
           ]
@@ -135,8 +135,8 @@
     },
     "Corner": {
       "FaceTags": {
-        "West": ["BarrierConnection"],
-        "South": ["BarrierConnection"]
+        "West": ["BarrierConnection_Yellow"],
+        "South": ["BarrierConnection_Yellow"]
       },
       "PatternsToMatchAnyOf": [
         {
@@ -149,28 +149,28 @@
               "Position": { "X": -1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "East": ["BarrierConnection"]
+                "East": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": 1 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "North": ["BarrierConnection"]
+                "North": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "West": ["BarrierConnection"]
+                "West": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": -1 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "South": ["BarrierConnection"]
+                "South": ["BarrierConnection_Yellow"]
               }
             }
           ]
@@ -179,9 +179,9 @@
     },
     "T_Junction": {
       "FaceTags": {
-        "East": ["BarrierConnection"],
-        "West": ["BarrierConnection"],
-        "South": ["BarrierConnection"]
+        "East": ["BarrierConnection_Yellow"],
+        "West": ["BarrierConnection_Yellow"],
+        "South": ["BarrierConnection_Yellow"]
       },
       "PatternsToMatchAnyOf": [
         {
@@ -194,28 +194,28 @@
               "Position": { "X": 1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "West": ["BarrierConnection"]
+                "West": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": -1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "East": ["BarrierConnection"]
+                "East": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": 1 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "North": ["BarrierConnection"]
+                "North": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": -1 },
               "IncludeOrExclude": "Exclude",
               "FaceTags": {
-                "South": ["BarrierConnection"]
+                "South": ["BarrierConnection_Yellow"]
               }
             }
           ]
@@ -224,10 +224,10 @@
     },
     "Cross_Junction": {
       "FaceTags": {
-        "East": ["BarrierConnection"],
-        "West": ["BarrierConnection"],
-        "South": ["BarrierConnection"],
-        "North": ["BarrierConnection"]
+        "East": ["BarrierConnection_Yellow"],
+        "West": ["BarrierConnection_Yellow"],
+        "South": ["BarrierConnection_Yellow"],
+        "North": ["BarrierConnection_Yellow"]
       },
       "PatternsToMatchAnyOf": [
         {
@@ -238,28 +238,28 @@
               "Position": { "X": 1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "West": ["BarrierConnection"]
+                "West": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": -1, "Y": 0, "Z": 0 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "East": ["BarrierConnection"]
+                "East": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": 1 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "North": ["BarrierConnection"]
+                "North": ["BarrierConnection_Yellow"]
               }
             },
             {
               "Position": { "X": 0, "Y": 0, "Z": -1 },
               "IncludeOrExclude": "Include",
               "FaceTags": {
-                "South": ["BarrierConnection"]
+                "South": ["BarrierConnection_Yellow"]
               }
             }
           ]
@@ -268,3 +268,4 @@
     }
   }
 }
+
