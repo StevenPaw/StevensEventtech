@@ -44,6 +44,8 @@ items.StevenPaw_Eventtech_XrayScanner.name=Xray Scanner
 items.StevenPaw_Eventtech_SmokeGeyser.name=Smoke Machine (Geyser)
 items.StevenPaw_Eventtech_Floorfogger.name=Smoke Machine (Floor)
 items.StevenPaw_Eventtech_FireGeyser.name=Fire Machine (Geyser)
+items.StevenPaw_Eventtech_LightingConsole_Small.name=Lighting Console
+items.StevenPaw_Eventtech_FootMarker.name=Foot Placement Marker
 
 items.StevenPaw_Eventtech_ConstructionFence3m.name=Construction Fence (3m)
 items.StevenPaw_Eventtech_ConstructionFence3m_Door.name=Construction Fence Door (3m)
