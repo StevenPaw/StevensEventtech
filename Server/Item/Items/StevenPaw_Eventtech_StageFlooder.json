@@ -17,7 +17,7 @@
       }
     ],
     "HitboxType": "StevenPaw_Eventtech_StageFlooder",
-    "VariantRotation": "None",
+    "VariantRotation": "UpDownNESW",
     "Gathering": {
       "Soft": {
         "IsWeaponBreakable": false
@@ -29,7 +29,6 @@
     "State": {
       "Definitions": {
         "OFF": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Off.png"
@@ -37,7 +36,6 @@
           ]
         },
         "RED": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Red.png"
@@ -49,7 +47,6 @@
           }
         },
         "AMBER": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Amber.png"
@@ -61,7 +58,6 @@
           }
         },
         "BLUE": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Blue.png"
@@ -73,7 +69,6 @@
           }
         },
         "CYAN": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Cyan.png"
@@ -85,7 +80,6 @@
           }
         },
         "GREEN": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Green.png"
@@ -97,7 +91,6 @@
           }
         },
         "UV": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_UV.png"
@@ -109,7 +102,6 @@
           }
         },
         "VIOLET": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Violet.png"
@@ -121,7 +113,6 @@
           }
         },
         "WHITE": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_White.png"
@@ -133,7 +124,6 @@
           }
         },
         "YELLOW": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_StageFlooder_Yellow.png"
@@ -167,7 +157,8 @@
           }
         ]
       }
-    }
+    },
+    "InteractionHint": "server.StevenPaw_Eventtech_ChangeColor.description"
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {

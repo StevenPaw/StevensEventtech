@@ -21,6 +21,11 @@
     ],
     "MovementSettings": {
       "IsClimbable": true
+    },
+    "Supporting": {
+      "All": [
+        {}
+      ]
     }
   },
   "IconProperties": {

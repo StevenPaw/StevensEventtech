@@ -7,7 +7,7 @@
     "Blocks.Deco"
   ],
   "BlockType": {
-    "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
+    "InteractionHint": "server.StevenPaw_Eventtech_ChangeColor.description",
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
@@ -62,7 +62,6 @@
     "State": {
       "Definitions": {
         "OFF": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Off.png"
@@ -70,7 +69,6 @@
           ]
         },
         "RED": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Red.png"
@@ -82,7 +80,6 @@
           }
         },
         "AMBER": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Amber.png"
@@ -94,7 +91,6 @@
           }
         },
         "BLUE": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Blue.png"
@@ -106,7 +102,6 @@
           }
         },
         "CYAN": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Cyan.png"
@@ -118,7 +113,6 @@
           }
         },
         "GREEN": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Green.png"
@@ -130,7 +124,6 @@
           }
         },
         "UV": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_UV.png"
@@ -142,7 +135,6 @@
           }
         },
         "VIOLET": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Violet.png"
@@ -154,7 +146,6 @@
           }
         },
         "WHITE": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_White.png"
@@ -166,7 +157,6 @@
           }
         },
         "YELLOW": {
-          "InteractionHint": "server.StevenPaw_Eventtech_ChangeDesign.description",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Furniture/StevenPaw_Eventtech_PARLight_Yellow.png"

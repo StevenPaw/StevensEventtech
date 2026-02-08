@@ -1,0 +1,112 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Eventtech_SmokeGeyser.name",
+    "Description": ""
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_SmokeGeyser.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_SmokeGeyser.png"
+      }
+    ],
+    "HitboxType": "StevenPaw_Eventtech_SmokeGeyser",
+    "VariantRotation": "UpDownNESW",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#303030",
+    "State": {
+      "Definitions": {
+        "OFF": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ToggleOn.description"
+        },
+        "ON": {
+          "InteractionHint": "server.StevenPaw_Eventtech_ToggleOff.description",
+          "Particles": [
+            {
+              "SystemId": "StevenPaw_Eventtech_SmokeGeyser_Particles",
+              "TargetNodeName": "Nozzle",
+              "DetachedFromModel": true,
+              "Scale": 3
+            }
+          ],
+          "VariantRotation": "UpDownNESW"
+        }
+      }
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "ON",
+              "OFF": "ON",
+              "ON": "OFF"
+            }
+          }
+        ]
+      }
+    },
+    "InteractionHint": "server.StevenPaw_Eventtech_ToggleOn.description",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.95,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -5
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "StevenPaw_Eventtech_Bench_Event",
+        "Categories": [
+          "Event_Basics"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_SmokeGeyser.png"
+}

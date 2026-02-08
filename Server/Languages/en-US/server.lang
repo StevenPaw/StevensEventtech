@@ -41,7 +41,9 @@ items.StevenPaw_Eventtech_Barrier_Warning.name=Barrier (Warning)
 items.StevenPaw_Eventtech_StageFlooder.name=Stage Flooder Light
 items.StevenPaw_Eventtech_RollerConveyer.name=Roller Conveyer
 items.StevenPaw_Eventtech_XrayScanner.name=Xray Scanner
-
+items.StevenPaw_Eventtech_SmokeGeyser.name=Smoke Machine (Geyser)
+items.StevenPaw_Eventtech_Floorfogger.name=Smoke Machine (Floor)
+items.StevenPaw_Eventtech_FireGeyser.name=Fire Machine (Geyser)
 
 items.StevenPaw_Eventtech_ConstructionFence3m.name=Construction Fence (3m)
 items.StevenPaw_Eventtech_ConstructionFence3m_Door.name=Construction Fence Door (3m)
@@ -50,3 +52,6 @@ items.StevenPaw_Eventtech_ConstructionFence2m_Door.name=Construction Fence Door 
 items.StevenPaw_Eventtech_ConstructionFence1m.name=Construction Fence (1m)
 
 StevenPaw_Eventtech_ChangeDesign.description=Press [{key}] to change Design
+StevenPaw_Eventtech_ChangeColor.description=Press [{key}] to change Color
+StevenPaw_Eventtech_ToggleOn.description=Press [{key}] to toggle on
+StevenPaw_Eventtech_ToggleOff.description=Press [{key}] to toggle off

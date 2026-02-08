@@ -27,22 +27,13 @@
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
     "ParticleColor": "#303030",
-    "Supporting": {
-      "Up": [
-        {}
-      ],
-      "Down": [
-        {}
-      ],
-      "East": [
-        {}
-      ],
-      "West": [
-        {}
-      ]
-    },
     "MovementSettings": {
       "IsClimbable": true
+    },
+    "Supporting": {
+      "All": [
+        {}
+      ]
     }
   },
   "PlayerAnimationsId": "Block",
