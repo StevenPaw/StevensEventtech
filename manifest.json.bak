@@ -1,10 +1,20 @@
 {
-    "Name": "StevensEventtech",
-    "Group": "StevenPaw",
-    "Version": "1.0.0",
-    "Description": "Stuff for Event Technicians to decorate",
-    "Main": "com.stevenpaw.stevenseventtech.StevensEventtech",
-    "Author": "StevenPaw",
-    "Website": "https://www.curseforge.com/members/stevenpaw",
-    "License": "MIT"
+  "Group": "StevenPaw",
+  "Name": "Stevens Event & Securitystuff",
+  "Version": "1.2.1",
+  "Description": "Security and stagestuff for Event Technicians to decorate",
+  "Authors": [
+    {
+      "Name": "Steven Paw",
+      "Email": "",
+      "Url": "stevenpaw.de"
+    }
+  ],
+  "Website": "https://www.curseforge.com/hytale/mods/stevens-event-security-stuff",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
 }
