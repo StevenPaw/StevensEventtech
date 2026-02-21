@@ -1,0 +1,80 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.StevenPaw_Eventtech_MetalDetector.name",
+    "Description": ""
+  },
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_MetalDetector.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/StevenPaw_Eventtech_MetalDetector.png"
+      }
+    ],
+    "HitboxType": "StevenPaw_Eventtech_MetalDetector",
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "ParticleColor": "#303030",
+    "Supporting": {
+      "Up": [
+        {}
+      ],
+      "Down": [
+        {}
+      ],
+      "East": [
+        {}
+      ],
+      "West": [
+        {}
+      ]
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.42,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -25
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Soil_Clay_Yellow"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "StevenPaw_Eventtech_Bench_Event",
+        "Categories": [
+          "Event_Security"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/StevenPaw_Eventtech_MetalDetector.png"
+}

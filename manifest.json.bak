@@ -1,5 +1,5 @@
 {
-  "Group": "StevenPaw",
+  "Group": "SP",
   "Name": "Stevens Event & Securitystuff",
   "Version": "1.2.1",
   "Description": "Security and stagestuff for Event Technicians to decorate",
@@ -16,5 +16,6 @@
   "LoadBefore": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": false,
-  "SubPlugins": []
+  "SubPlugins": [],
+  "ServerVersion": "2026.02.17-255364b8e"
 }

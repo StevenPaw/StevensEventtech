@@ -46,6 +46,14 @@ items.StevenPaw_Eventtech_Floorfogger.name=Smoke Machine (Floor)
 items.StevenPaw_Eventtech_FireGeyser.name=Fire Machine (Geyser)
 items.StevenPaw_Eventtech_LightingConsole_Small.name=Lighting Console
 items.StevenPaw_Eventtech_FootMarker.name=Foot Placement Marker
+items.StevenPaw_Eventtech_MetalDetector.name=Metal Detector
+
+items.StevenPaw_Eventtech_BarrierGate_Size5.name=Barrier Gate (Size 5)
+items.StevenPaw_Eventtech_BarrierGate_Size4.name=Barrier Gate (Size 4)
+items.StevenPaw_Eventtech_BarrierGate_Size3.name=Barrier Gate (Size 3)
+items.StevenPaw_Eventtech_MetalGate_Size5.name=Metal Gate (Size 5)
+items.StevenPaw_Eventtech_MetalGate_Size4.name=Metal Gate (Size 4)
+items.StevenPaw_Eventtech_MetalGate_Size3.name=Metal Gate (Size 3)
 
 items.StevenPaw_Eventtech_ConstructionFence3m.name=Construction Fence (3m)
 items.StevenPaw_Eventtech_ConstructionFence3m_Door.name=Construction Fence Door (3m)

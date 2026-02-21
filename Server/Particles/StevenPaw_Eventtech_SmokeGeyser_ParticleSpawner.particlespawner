@@ -10,10 +10,6 @@
     "Min": 30,
     "Max": 200
   },
-  "TotalParticles": {
-    "Min": -1,
-    "Max": -1
-  },
   "InitialVelocity": {
     "Yaw": {
       "Min": 1,
@@ -152,7 +148,8 @@
         "Max": 3
       }
     },
-    "SoftParticles": "Disable"
+    "SoftParticles": "Disable",
+    "SoftParticlesFadeFactor": 1.962
   },
   "Shape": "Cube",
   "UseEmitDirection": false,
