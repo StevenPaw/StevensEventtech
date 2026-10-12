@@ -27,12 +27,8 @@
   "Recipe": {
     "Input": [
       {
-        "Quantity": 4,
-        "ResourceTypeId": "Wood_Trunk"
-      },
-      {
         "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 1
+        "Quantity": 6
       }
     ],
     "BenchRequirement": [
@@ -43,8 +39,7 @@
           "Event_Security"
         ]
       }
-    ],
-    "OutputQuantity": 2
+    ]
   },
   "BlockType": {
     "BlockParticleSetId": "Wood",

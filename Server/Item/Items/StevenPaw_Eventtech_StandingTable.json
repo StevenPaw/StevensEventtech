@@ -57,7 +57,7 @@
   "Recipe": {
     "Input": [
       {
-        "Quantity": 4,
+        "Quantity": 2,
         "ResourceTypeId": "Wood_Trunk"
       }
     ],
@@ -69,8 +69,7 @@
           "Event_Basics"
         ]
       }
-    ],
-    "OutputQuantity": 4
+    ]
   },
   "Tags": {
     "Type": [
