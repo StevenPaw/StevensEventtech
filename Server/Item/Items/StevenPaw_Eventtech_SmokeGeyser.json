@@ -19,8 +19,8 @@
     "HitboxType": "StevenPaw_Eventtech_SmokeGeyser",
     "VariantRotation": "UpDownNESW",
     "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
+      "Breaking": {
+        "GatherType": "Rocks"
       }
     },
     "BlockParticleSetId": "Metal",

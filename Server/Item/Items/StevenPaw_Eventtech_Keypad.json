@@ -18,11 +18,6 @@
     ],
     "HitboxType": "StevenPaw_Eventtech_Keypad",
     "VariantRotation": "NESW",
-    "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
-      }
-    },
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
     "ParticleColor": "#303030",
@@ -46,6 +41,11 @@
           "FaceType": "Full"
         }
       ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
     }
   },
   "PlayerAnimationsId": "Block",

@@ -19,8 +19,8 @@
     "HitboxType": "StevenPaw_Eventtech_PortalTurnstile",
     "VariantRotation": "NESW",
     "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
+      "Breaking": {
+        "GatherType": "Rocks"
       }
     },
     "BlockParticleSetId": "Metal",

@@ -22,11 +22,6 @@
     ],
     "HitboxType": "StevenPaw_Eventtech_SecurityGateClosed",
     "VariantRotation": "NESW",
-    "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
-      }
-    },
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
     "Support": {
@@ -73,6 +68,11 @@
           "HitboxType": "StevenPaw_Eventtech_SecurityGateClosed",
           "IdleAnimation": "StevenPaw_Eventtech_SecurityGate_Closing"
         }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
       }
     }
   },

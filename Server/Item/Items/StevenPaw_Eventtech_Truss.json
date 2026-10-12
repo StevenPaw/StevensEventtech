@@ -19,11 +19,6 @@
     ],
     "HitboxType": "StevenPaw_Eventtech_Truss",
     "VariantRotation": "Pipe",
-    "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
-      }
-    },
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
     "ParticleColor": "#303030",
@@ -34,6 +29,11 @@
       "All": [
         {}
       ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
     }
   },
   "PlayerAnimationsId": "Block",

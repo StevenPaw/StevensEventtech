@@ -19,11 +19,6 @@
     ],
     "HitboxType": "StevenPaw_Eventtech_MoltonWall",
     "VariantRotation": "NESW",
-    "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
-      }
-    },
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
     "ParticleColor": "#303030",
@@ -40,6 +35,11 @@
       "West": [
         {}
       ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
     }
   },
   "PlayerAnimationsId": "Block",

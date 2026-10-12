@@ -20,7 +20,7 @@
     "VariantRotation": "NESW",
     "Gathering": {
       "Breaking": {
-        "ItemId": "StevenPaw_Eventtech_Barrier_Blue"
+        "GatherType": "Rocks"
       }
     },
     "BlockParticleSetId": "Metal",

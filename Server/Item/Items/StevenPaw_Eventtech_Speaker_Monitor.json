@@ -18,11 +18,6 @@
     ],
     "HitboxType": "StevenPaw_Eventtech_Speaker_Monitor",
     "VariantRotation": "UpDownNESW",
-    "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
-      }
-    },
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
     "ParticleColor": "#7b0000",
@@ -38,6 +33,11 @@
       "Up": [
         {}
       ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
     }
   },
   "PlayerAnimationsId": "Block",

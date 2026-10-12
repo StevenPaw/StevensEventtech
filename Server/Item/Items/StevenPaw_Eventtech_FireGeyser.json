@@ -18,11 +18,6 @@
     ],
     "HitboxType": "StevenPaw_Eventtech_FireGeyser",
     "VariantRotation": "UpDownNESW",
-    "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
-      }
-    },
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
     "ParticleColor": "#303030",
@@ -60,7 +55,12 @@
         ]
       }
     },
-    "InteractionHint": "server.StevenPaw_Eventtech_ToggleOn.description"
+    "InteractionHint": "server.StevenPaw_Eventtech_ToggleOn.description",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    }
   },
   "PlayerAnimationsId": "Block",
   "IconProperties": {

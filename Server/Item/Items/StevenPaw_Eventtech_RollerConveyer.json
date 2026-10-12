@@ -20,7 +20,7 @@
     "VariantRotation": "None",
     "Gathering": {
       "Breaking": {
-        "ItemId": "StevenPaw_Eventtech_RollerConveyer_Blue"
+        "GatherType": "Rocks"
       }
     },
     "BlockParticleSetId": "Metal",

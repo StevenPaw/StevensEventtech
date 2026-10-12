@@ -66,6 +66,11 @@
         }
       ]
     },
-    "Material": "Solid"
+    "Material": "Solid",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    }
   }
 }

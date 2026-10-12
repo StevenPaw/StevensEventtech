@@ -22,11 +22,6 @@
     ],
     "HitboxType": "StevenPaw_Eventtech_GeneratorSpotlight",
     "VariantRotation": "NESW",
-    "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
-      }
-    },
     "BlockParticleSetId": "Metal",
     "BlockSoundSetId": "Metal",
     "Support": {
@@ -73,6 +68,11 @@
             "Color": "#fd7"
           }
         }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
       }
     }
   },

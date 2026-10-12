@@ -8,11 +8,6 @@
     "CustomModel": "Blocks/Furniture/StevenPaw_Eventtech_Truss_Edge.blockymodel",
     "HitboxType": "StevenPaw_Eventtech_Truss_Edge",
     "VariantRotation": "None",
-    "Gathering": {
-      "Soft": {
-        "IsWeaponBreakable": false
-      }
-    },
     "BlockSoundSetId": "Metal",
     "CustomModelTexture": [
       {
